@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Code, Palette, PenTool } from "lucide-react";
+import { Code, Palette, Figma } from "lucide-react";
 
 const services = [
   {
@@ -8,7 +8,7 @@ const services = [
     title: "Web Design",
     description: "Creating visually appealing and user-friendly web designs that captivate your audience. Focusing on modern UI/UX principles and brand consistency.",
     icon: Palette,
-    color: "from-pink-500 to-rose-500",
+    color: "from-blue-500 to-cyan-500",
   },
   {
     id: 2,
@@ -19,11 +19,11 @@ const services = [
   },
   {
     id: 3,
-    title: "Content Writing",
-    description: "Writing engaging and SEO-optimized content that tells your story and connects with your target audience.",
-    icon: PenTool,
-    color: "from-green-500 to-emerald-500",
-  },
+    title: "UI/UX Design",
+    description: "Designing intuitive and user-centered interfaces that elevate your brand and improve user experience.",
+    icon: Figma,
+    color: "from-blue-500 to-cyan-500",
+  }  
 ];
 
 const Service = () => {
