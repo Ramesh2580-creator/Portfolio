@@ -10,8 +10,8 @@ const projects = [
   {
     id: 1,
     name: "Ecommerce Website",
-    technologies: ["React", "Node.js", "MongoDB", "Express"],
-    description: "A full-stack BLogs website with modern design and blogs post.",
+    technologies: ["React", "Laravel", "MySql"],
+    description: "A full-stack Ecommerce website with modern design.",
     image: BLogs,
     github: "https://github.com/Ramesh2580-creator/Blogs-Website",
     demo: "https://blogs-website-z5b9.vercel.app/",
@@ -30,7 +30,7 @@ const projects = [
   {
     id: 3,
     name: "Restaurant Website",
-    technologies: ["React", "Node.js", "MongoDB", "Express"],
+    technologies: ["React","Arrays"],
     description: "A full-stack restaurant website with modern design and booking functionality.",
     image: Restaurant,
     github: "https://github.com/Ramesh2580-creator/Restaurant-Website.git",
