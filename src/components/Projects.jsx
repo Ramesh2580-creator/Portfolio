@@ -9,7 +9,7 @@ import BLogs from "../assets/Blogs.png";
 const projects = [
   {
     id: 1,
-    name: "Blogs Website",
+    name: "Ecommerce Website",
     technologies: ["React", "Node.js", "MongoDB", "Express"],
     description: "A full-stack BLogs website with modern design and blogs post.",
     image: BLogs,
@@ -19,6 +19,16 @@ const projects = [
   },
   {
     id: 2,
+    name: "Blogs Website",
+    technologies: ["React", "Node.js", "MongoDB", "Express"],
+    description: "A full-stack BLogs website with modern design and blogs post.",
+    image: BLogs,
+    github: "https://github.com/Ramesh2580-creator/Blogs-Website",
+    demo: "https://blogs-website-z5b9.vercel.app/",
+    category: "Full Stack",
+  },
+  {
+    id: 3,
     name: "Restaurant Website",
     technologies: ["React", "Node.js", "MongoDB", "Express"],
     description: "A full-stack restaurant website with modern design and booking functionality.",
@@ -28,7 +38,7 @@ const projects = [
     category: "Full Stack",
   },
   {
-    id: 3,
+    id: 4,
     name: "Rock Papers Scissors",
     technologies: ["React", "Node.js", "MongoDB", "Express"],
     description: "Interactive game implementation with real-time gameplay and score tracking.",
@@ -38,7 +48,7 @@ const projects = [
     category: "Game",
   },
   {
-    id: 4,
+    id: 5,
     name: "Movies Search",
     technologies: ["React","Tailwinds CSS","API"],
     description: "Movie search application with advanced filtering and recommendation system.",
