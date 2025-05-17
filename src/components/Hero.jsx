@@ -57,8 +57,8 @@ const Hero = ({ profileImage }) => {
 
             <div className="flex gap-6 justify-center lg:justify-start mt-8">
               {[
-                { name: "GitHub", href: "#" },
-                { name: "LinkedIn", href: "#" },
+                { name: "GitHub", href: "https://github.com/Ramesh2580-creator"},
+                { name: "LinkedIn", href: "https://www.linkedin.com/in/ramesh-kumar-yadav-2590ba201/" },
                 { name: "Email", href: "#" }
               ].map(({ name, href }, index) => (
                 <a

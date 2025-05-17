@@ -5,6 +5,7 @@ import Restaurant from "../assets/Restaurant.png";
 import Game from "../assets/game.png";
 import Movies from "../assets/movies-search.png";
 import BLogs from "../assets/Blogs.png";
+import Ecommerce from "../assets/macstore.png";
 
 const projects = [
   {
@@ -12,9 +13,9 @@ const projects = [
     name: "Ecommerce Website",
     technologies: ["React", "Laravel", "MySql"],
     description: "A full-stack Ecommerce website with modern design.",
-    image: BLogs,
-    github: "https://github.com/Ramesh2580-creator/Blogs-Website",
-    demo: "https://blogs-website-z5b9.vercel.app/",
+    image: Ecommerce,
+    github: "",
+    demo: "https://macstore.com.np",
     category: "Full Stack",
   },
   {
@@ -179,7 +180,7 @@ const Projects = () => {
                       href={project.demo}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-green-400 to-blue-500 hover:from-purple-600 hover:to-pink-600 transition-colors duration-300"
+                      className="flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-green-400 to-blue-500 hover:from-green-600 hover:to-blue-600 transition-colors duration-300"
                     >
                       <ExternalLink className="w-4 h-4" />
                       <span>Live Demo</span>
